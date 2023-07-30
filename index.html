@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+
+    <!-- Fonts Quicksand | Montserrat  Googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="scrollreveal.js"></script>
+    <title>DBI | Home</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header
+      class="vh-100 d-flex flex-column justify-content-center align-items-center"
+      id="home"
+    >
+      <article
+        class="hero__content container d-flex flex-column justify-content-center z-3 position-absolute aparecer"
+      >
+        <picture
+          class="hero__logo d-flex justify-content-center align-items-center"
+        >
+          <img
+            class=""
+            src="../ASSETS/img/Isotipo fondo trasnparente.png"
+            alt="Logo de DBI, Desing Build Innovate"
+          />
+        </picture>
+        <h2 class="aparecer text-center display-5">DESING BUILD INNOVATE</h2>
+      </article>
+    </header>
+    <button
+      type="button"
+      class="leng-buttom btn btn-outline-light d-none d-lg-block d-xl-block mb-5 fixed-bottom text-center"
+      id="leng-button"
+    >
+      <a
+        class="d-flex align-items-center justify-content-center"
+        href="./spanish.html"
+        id="leng-link"
+        >Spanish</a
+      >
+    </button>
+    <nav
+      class="container-fluid navbar navbar-expand-lg aparecer fixed-top"
+      id="myNavbar"
+    >
+      <div class="container d-flex justify-content-around">
+        <div class="d-flex align-items-center">
+          <div class="display">
+            <a class="navbar-brand text-center" href="#home"
+              >DBI | Desing Build Innovation</a
+            >
+          </div>
+          <button
+            class="navbar-toggler my-1"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex mx-5 align-items-center">
+            <li class="nav-item d-flex align-items-center">
+              <a
+                class="nav-link active text-center"
+                aria-current="page"
+                href="#about-us"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#construction-design"
+                >Construction and Desing</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link text-center" href="#team">Team</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#contact-us">Contact US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#work-us">Work at Us</a>
+            </li>
+            <li class="nav-item d-lg-none d-xl-none d-xxl-none">
+              <a class="nav-link text-center" href="./spanish.html">Spanish</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="">
+      <!-- Inicio About Us Seccion -->
+      <section
+        class="container my-5 d-flex flex-column gap-5 about"
+        id="about-us"
+      >
+        <!-- Inicio About Us Seccion -->
+        <div class="row">
+          <article
+            class="about__content col-sm-6 d-flex flex-column align-items-center justify-content-center px-5"
+          >
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">
+              At our construction company in Roatan, we are committed to making
+              your dreams of owning a unique, personalized home that reflects
+              your lifestyle a reality. We specialize in small residential
+              projects, ensuring that each project is one-of-a-kind and meets
+              the needs of our clients.
+            </p>
+          </article>
+          <picture class="about__picture col-sm-6 px-5">
+            <img
+              class="rounded-5"
+              src="./ASSETS/img/casa-playa-al-atardecer.jpg"
+              alt=""
+            />
+          </picture>
+        </div>
+        <div class="row">
+          <article
+            class="about__content col-sm-6 order-sm-5 d-flex flex-column align-items-center justify-content-center px-5"
+          >
+            <h2 class="text-center">Mission</h2>
+            <p class="text-center">
+              Our mission is to provide our clients with personalized and
+              professional service, delivering high-quality construction
+              solutions in every project we undertake. We focus on achieving
+              complete customer satisfaction by offering a transparent,
+              stress-free building experience.
+            </p>
+          </article>
+          <picture class="about__picture col-sm-6 order-sm-1 px-5">
+            <img
+              class="rounded-5"
+              src="./ASSETS/img/trabajador-ingeniero-construccion-ingeniero-civil-que-verifica-trabajo-sitio-construccion-concepto-construccion-casa.jpg"
+              alt=""
+            />
+          </picture>
+        </div>
+        <div class="row">
+          <article
+            class="about__content col-sm-6 d-flex flex-column align-items-center justify-content-center px-5"
+          >
+            <h2 class="text-center">Vision</h2>
+            <p class="text-center">
+              Our vision is to become the leading construction company in
+              Roatan, recognized for our quality construction, commitment to
+              customer service, and work ethic. We strive to be the first choice
+              for those who want to build their home in Roatan.
+            </p>
+          </article>
+          <picture class="about__picture col-sm-6 px-5">
+            <img
+              class="rounded-5"
+              src="./ASSETS/img/hombre-anteojos-sonriendo.jpg"
+              alt=""
+            />
+          </picture>
+        </div>
+      </section>
+      <!-- Fin About Us Seccion -->
+      <!-- Inicio Construcion Seccion -->
+      <section class="container my-5 text-center" id="construction-design">
+        <article class="container position-absolute z-3 text-center">
+          <h1 class="display-4 my-5 p-3 text-center" id="construction-title">
+            Our constructions and designs
+          </h1>
+        </article>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel carousel-dark slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./ASSETS/img/lof.jpg" class="d-block w-100" alt="..." /
+              id="carousel-img">
+              <div
+                class="carousel-caption d-none d-md-block"
+                id="carousel-caption"
+              >
+                <h5 class="display-4">Loft</h5>
+                <p class="fw-medium">
+                  We understand the importance of creating spaces that harmonize
+                  with the natural beauty of the Roatán Islands.
+                </p>
+                <button class="btn btn-outline-light rounded-pill mx-5">
+                  <a href="#contact-us">Contact Us</a>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./ASSETS/img/loft.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4">Loft</h5>
+                <p class="fw-medium">
+                  We draw inspiration from nature to conceive spaces that foster
+                  a deeper connection with the environment.
+                </p>
+                <button class="btn btn-outline-light rounded-pill mx-5">
+                  <a href="#contact-us">Contact Us</a>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./ASSETS/img/Medina home.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4">Medina Home</h5>
+                <p class="fw-medium">
+                  Our modern-designed homes are true dream homes in the
+                  paradisiacal Roatán.
+                </p>
+                <button class="btn btn-outline-light rounded-pill mx-5">
+                  <a href="#contact-us">Contact Us</a>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./ASSETS/img/Loft5.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4">Loft</h5>
+                <p class="fw-medium">
+                  Sustainability is a priority. We apply eco-construction
+                  practices that minimize environmental impact.
+                </p>
+                <button class="btn btn-outline-light rounded-pill mx-5">
+                  <a href="#contact-us">Contact Us</a>
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./ASSETS/img/Gomez home.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4">Gomez Home</h5>
+                <p class="fw-medium">
+                  Every project we undertake is an opportunity to showcase
+                  innovation in design and construction.
+                </p>
+                <button class="btn btn-outline-light rounded-pill mx-5">
+                  <a href="#contact-us">Contact Us</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev fw-semibold"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next fw-semibold"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Fin Construcion Seccion -->
+      <!-- Inicio Team Seccion -->
+      <!-- <section class="vh-100" id="team"></section> -->
+      <!-- Fin Team Seccion -->
+      <!-- Inicio Contact Us Seccion -->
+      <section class="contacto" id="contact-us">
+        <!-- Contact Container -->
+        <div class="contact-container col-md-12 mb-2">
+          <!-- Form -->
+          <div class="form-container">
+            <h3>Contact Us</h3>
+            <form
+              action="https://formsubmit.co/carlos@dbihn.com"
+              method="POST"
+              class="contact-form"
+            >
+              <input
+                type="text"
+                name="text"
+                placeholder="Your Name"
+                id=""
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="Enter Your Email..."
+                required
+              />
+              <textarea
+                name="textarea"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Write Your Message Here..."
+                required
+              ></textarea>
+              <input
+                type="submit"
+                name="submit"
+                value="Send"
+                class="send-button"
+              />
+            </form>
+          </div>
+          <!-- Map -->
+          <div class="map col-md-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245023.00448568282!2d-86.56147820341057!3d16.3492662534025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f69fae8f868de79%3A0x9e1728eac5dca080!2zUm9hdMOhbg!5e0!3m2!1ses-419!2sar!4v1683329189989!5m2!1ses-419!2sar"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- Fin Contact Us Seccion -->
+      <section class="" id="work-us">
+        <article class="my-5">
+          <div class="row my-5"></div>
+          <div class="row my-5">
+            <h1
+              class="col-12 col-md-6 col-lg-4 display-4 text-center"
+              id="work-title"
+            >
+              Do you want to be part of the team?
+            </h1>
+          </div>
+          <div class="row mx-1">
+            <div class="col-12 col-md-6 col-lg-4"></div>
+            <div class="col-12 d-lg-block d-md-none col-lg-4"></div>
+            <h3
+              class="col-12 col-md-6 col-lg-4 display-6 text-center"
+              id="work-subtitle"
+            >
+              In DBI, we always seek the best talents.
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4"></div>
+            <div class="col-12 d-lg-block d-md-none col-lg-4"></div>
+            <button
+              type="button"
+              class="btn col-12 col-md-6 col-lg-4 text-center"
+              id="work-button"
+            >
+              <a
+                class="d-flex align-items-center justify-content-center"
+                href="#contact-us"
+                >Contact Us</a
+              >
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="">
+      <section class="row d-flex align-items-center">
+        <article
+          class="col-lg-6 d-flex flex-column align-items-center gap-3 mt-5"
+        >
+          <h1 class="text-center display-6">
+            Brisas del Valle, Roatan, Honduras
+          </h1>
+          <a href="mailto:carlos@dbihn.com">carlos@dbihn.com</a>
+          <p>(+420) 773 931 840</p>
+        </article>
+        <picture
+          class="col-lg-6 d-flex flex-column align-items-center mt-5 footer__img"
+        >
+          <img
+            src="./ASSETS/img/Isotipo fondo trasnparente.png"
+            alt="Logo DBI"
+          />
+        </picture>
+      </section>
+      <seccion class="d-flex align-items-center justify-content-center">
+        <small class="text-center mb-2"
+          >copyright&copy;
+          <a href="mailto:marcelomelogno1986@gmail.com">Marcelo Melogno</a> |
+          Desing & Web Development. July 2023
+        </small>
+      </seccion>
+    </footer>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main Scrips -->
+    <script src="scripts.js"></script>
+  </body>
+</html>

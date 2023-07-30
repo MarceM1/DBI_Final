@@ -1,0 +1,328 @@
+html {
+  overflow-x: hidden;
+  width: 100vw !important;
+}
+
+body {
+  background-color: antiquewhite;
+  max-width: 100% !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+header {
+  background-position: center center;
+  background-image: url(../ASSETS/img/casa-moderna-ventanas-panoramicas-playa.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100vw;
+}
+
+header::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(1px) brightness(0.7);
+  background: linear-gradient(
+    360deg,
+    rgb(250, 235, 215) 1%,
+    rgba(232, 232, 237, 0) 5%
+  );
+}
+
+.leng-buttom {
+  width: 10vw !important;
+  margin-left: 3%;
+  backdrop-filter: blur(1px) brightness(0.7);
+  padding: 0.3rem;
+}
+
+.leng-buttom a {
+  color: antiquewhite;
+  font-family: "Montserrat Alternates", sans-serif !important;
+  font-size: 1rem !important;
+}
+.leng-buttom:hover a {
+  color: #0b0b0b !important;
+}
+#navbarNav ul li a {
+  color: antiquewhite;
+  font-family: "Montserrat Alternates", sans-serif !important;
+  display: flex;
+}
+
+#navbarNav ul li a:hover {
+  transition: 0.5s ease-in-out;
+  color: black;
+}
+
+.navbar-toggler-icon {
+  color: antiquewhite !important;
+}
+
+.navbar-toggler {
+  color: antiquewhite !important;
+  border: solid 1px antiquewhite !important;
+  background-color: rgba(250, 235, 215, 0.467);
+  backdrop-filter: blur(2px);
+}
+.hero__content h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: antiquewhite;
+  letter-spacing: 0.7rem;
+}
+
+.hero__logo img {
+  max-width: 35%;
+}
+
+.hero__content:hover h2 {
+  transition: 0.5s ease-in-out;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
+}
+
+.display a {
+  font-family: "Montserrat Alternates", sans-serif !important;
+  color: antiquewhite;
+}
+
+.navbar-scroll {
+  background-color: #423f3f98 !important; 
+  backdrop-filter: blur(2px) brightness(0.7);
+  transition: all 0.3s ease-in-out;
+  
+}
+.navbar-scrollB {
+  background-color: #ffffff98 !important;
+  backdrop-filter: blur(2px) brightness(0.7);
+  transition: all 0.3s ease-in-out;
+}
+.navbar-collapse {
+  padding: 1rem;
+  width: 100vw !important;
+}
+
+#construction-design h1 {
+  font-family: "Montserrat Alternates", sans-serif !important;
+}
+
+.carousel-caption {
+  background-color: #ffffff6f;
+  backdrop-filter: blur(2px) brightness(0.7);
+  /* border-radius: 15px; */
+  font-family: "Quicksand", sans-serif;
+}
+
+.carousel-caption p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.carousel-caption button a {
+  color: #0b0b0b;
+}
+
+
+#work-us {
+  background-image: url(../ASSETS/img/primer-plano-mano-ofrecimiento-hombre-negocios-apreton-manos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: "Quicksand", sans-serif;
+}
+#work-us button {
+  border: none;
+}
+#work-us a {
+  text-decoration: none;
+  color: #0b0b0b;
+  font-size: 1.5rem;
+}
+#work-us button:hover a {
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+footer {
+  background-color: #423f3f;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: antiquewhite;
+}
+
+#about-us {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Contact Us seccion */
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6rem;
+  
+  z-index: -1;
+}
+.contact-container {
+  max-width: 960px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  background: #423f3f;
+  box-shadow: 0 0 1rem hsla(0 0 0 / 16%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.contact-container:hover {
+  transition: 0.3s all linear;
+  box-shadow: 0px 0px 10px 3px #fff;
+}
+
+.form-container {
+  padding: 2em;
+}
+
+.form-container h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: antiquewhite;
+}
+
+.contact-form {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: rgba(189, 189, 198, 0.992);
+  padding: 0.5em;
+  border-radius: 0.4rem;
+  color: 405065;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 20em;
+}
+
+.contact-form .send-button {
+  border: none;
+  outline: none;
+  background: rgb(135, 157, 174);
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.contact-form .send-button:hover {
+  background: hsl(190, 100%, 44%, 0.8);
+  transition: 0.3s all linear;
+  color: #fff;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+footer img {
+  max-width: 50%;
+}
+
+footer a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+footer a:hover {
+  transition: all 0.5s ease-in-out;
+  text-shadow: 0px 0px 3px antiquewhite;
+}
+
+/* Animations */
+
+.aparecer {
+  opacity: 0;
+  animation: aparecer 5s ease-in-out forwards;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 1;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255);
+  }
+  99% {
+    opacity: 1;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Media Querys */
+
+@media (max-width: 375px) {
+  .display {
+    display: none;
+  }
+  html {
+    overflow-x: hidden;
+  }
+}
+
+/*  ****** Mobile Divices *****  */
+@media (min-width: 320px) and (max-width: 480px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 100%;
+    border-radius: 0px;
+  }
+
+  .map {
+    max-width: 100%;
+    padding: 0 2em;
+  }
+}
+
+/*  ****** Tablets *****  */
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 100%;
+    border-radius: 0px;
+  }
+
+  .map {
+    max-width: 100%;
+    padding: 0 2em;
+  }
+}
