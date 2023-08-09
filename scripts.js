@@ -5,10 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
   function toggleNavbarClass() {
     if (window.pageYOffset > headerHeight) {
       navbar.classList.add("navbar-scroll");
+      navbar.classList.add("container")
       navbar.classList.remove("navbar-scrollB");
+      navbar.classList.remove("container-fluid")
     } else {
       navbar.classList.remove("navbar-scroll");
+      navbar.classList.remove("container")
       navbar.classList.add("navbar-scrollB");
+      navbar.classList.add("container-fluid");
     }
   }
 
